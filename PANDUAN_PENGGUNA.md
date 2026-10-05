@@ -10,8 +10,10 @@ Sebagai panitia yang menjaga laptop di bilik suara, tugasmu adalah memastikan pr
 **Kode PIN Operator: `1234`** *(TOLONG JANGAN DIBERIKAN KE SISWA!)*
 
 **Alur Kerjamu:**
-1. Layar laptop di bilik akan menampilkan gembok merah bertuliskan **"Bilik Suara Terkunci"**.
-2. Saat pemilih (siswa) datang membawa undangan/kertas registrasi, **kamu (Panitia)** yang mengetikkan PIN `1234` dan menekan tombol **"Buka Bilik Suara"**.
+1. Layar laptop di bilik harus selalu menampilkan alamat web berikut:
+   👉 **[https://skagamu.github.io/pilketos](https://skagamu.github.io/pilketos)**
+2. Layar akan menampilkan gembok merah bertuliskan **"Bilik Suara Terkunci"**.
+3. Saat pemilih (siswa) datang membawa undangan/kertas registrasi, **kamu (Panitia)** yang mengetikkan PIN `1234` dan menekan tombol **"Buka Bilik Suara"**.
 3. Mundur dan biarkan siswa tersebut melihat layar untuk memilih.
 4. Setelah siswa mencoblos, layar akan berubah menjadi HIJAU ("Terima Kasih!").
 5. Dalam 3 detik, layar akan **Otomatis Terkunci Kembali** (kembali ke layar gembok merah).
@@ -39,7 +41,8 @@ Untuk panitia yang menjaga tampilan proyektor di panggung atau ruang panitia pus
 
 **Kode PIN Master: `9999`**
 
-1. Pastikan laptop proyektor membuka halaman **Dashboard Hasil** (`/hasil`).
+1. Pastikan laptop proyektor membuka alamat web Dashboard Hasil berikut:
+   👉 **[https://skagamu.github.io/pilketos/hasil](https://skagamu.github.io/pilketos/hasil)**
 2. Layar akan meminta PIN. Masukkan `9999` lalu klik **"Lihat Hasil"**.
 3. Layar akan menampilkan grafik batang yang bergerak secara langsung (*Live/Real-Time*).
 4. **TUGASMU:** Hanya duduk manis dan biarkan layarnya terbuka! Kamu **TIDAK PERLU** menekan tombol *Refresh/F5* di keyboard. Setiap kali ada siswa yang nyoblos di bilik mana pun, grafiknya akan langsung memanjang sendiri secara otomatis.
