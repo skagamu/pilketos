@@ -53,6 +53,9 @@ Untuk panitia yang menjaga tampilan proyektor di panggung atau ruang panitia pus
 | Muncul pesan "Gagal Menyimpan Suara" saat siswa nyoblos. | Internet laptop di bilik terputus. | Jangan panik. Minta siswa menunggu. Cek koneksi Wi-Fi/Tethering laptop tersebut. Setelah internet nyala, suruh siswa klik "Yakin, Simpan" lagi. |
 | Grafik di Proyektor diam saja, padahal banyak siswa yang nyoblos. | Internet laptop proyektor terputus (atau *sleep*). | Cek koneksi internet laptop proyektor, lalu tekan tombol **Refresh (F5)** sekali untuk menyingkronkan ulang data yang tertinggal. |
 | Layar bilik suara nyangkut di "Loading...". | Database sedang sibuk atau internet *lag*. | Tekan tombol *Refresh* (F5) pada laptop tersebut, lalu masukkan PIN `1234` untuk membuka kembali biliknya. Suara yang sudah masuk tidak akan terhapus. |
+| Ada siswa yang tahu PIN 1234. | Panitia kurang rapat menutupi keyboard. | Ganti panitia/tegaskan panitia agar memutar laptop ke arahnya saat mengetik PIN, jangan sampai dilihat dari belakang. |
+
+---
 
 ---
 *Semoga sukses! Pastikan keadilan dan transparansi selalu terjaga selama masa pemilihan berlangsung.* 🚀
