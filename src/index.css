@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-slate-950: #020617;
+  --color-slate-900: #0f172a;
+  --color-slate-800: #1e293b;
+  --color-slate-300: #cbd5e1;
+  --color-slate-100: #f1f5f9;
+  
+  --color-red-500: #ef4444;
+  --color-red-600: #dc2626;
+  
+  --color-emerald-500: #10b981;
+  --color-emerald-600: #059669;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased min-h-screen selection:bg-red-600 selection:text-white;
+}
