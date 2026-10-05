@@ -7,7 +7,7 @@ import Dashboard from './pages/Dashboard'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/pilketos">
       <Routes>
         <Route path="/" element={<Kiosk />} />
         <Route path="/hasil" element={<Dashboard />} />
