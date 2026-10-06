@@ -1,17 +1,18 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { HashRouter, Routes, Route } from 'react-router-dom'
 import './index.css'
 import Kiosk from './pages/Kiosk'
 import Dashboard from './pages/Dashboard'
 
+function App() {
+  // Jika URL memiliki parameter ?page=hasil atau URL path diakhiri /hasil
+  const isDashboard = window.location.search.includes('page=hasil') || window.location.hash.includes('hasil');
+
+  return isDashboard ? <Dashboard /> : <Kiosk />;
+}
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <HashRouter>
-      <Routes>
-        <Route path="/" element={<Kiosk />} />
-        <Route path="/hasil" element={<Dashboard />} />
-      </Routes>
-    </HashRouter>
+    <App />
   </StrictMode>,
 )

@@ -42,7 +42,7 @@ Untuk panitia yang menjaga tampilan proyektor di panggung atau ruang panitia pus
 **Kode PIN Master: `9999`**
 
 1. Pastikan laptop proyektor membuka alamat web Dashboard Hasil berikut:
-   👉 **[https://skagamu.github.io/pilketos/#/hasil](https://skagamu.github.io/pilketos/#/hasil)**
+   👉 **[https://skagamu.github.io/pilketos/?page=hasil](https://skagamu.github.io/pilketos/?page=hasil)**
 2. Layar akan meminta PIN. Masukkan `9999` lalu klik **"Lihat Hasil"**.
 3. Layar akan menampilkan grafik batang yang bergerak secara langsung (*Live/Real-Time*).
 4. **TUGASMU:** Hanya duduk manis dan biarkan layarnya terbuka! Kamu **TIDAK PERLU** menekan tombol *Refresh/F5* di keyboard. Setiap kali ada siswa yang nyoblos di bilik mana pun, grafiknya akan langsung memanjang sendiri secara otomatis.
