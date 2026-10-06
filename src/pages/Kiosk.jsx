@@ -151,7 +151,7 @@ export default function Kiosk() {
               <div key={candidate.id} className="bg-slate-900 border border-slate-800 rounded-3xl p-6 flex flex-col">
                 <div className="relative aspect-[3/4] w-full mb-6 rounded-2xl overflow-hidden bg-slate-950 border border-slate-800">
                   {candidate.photo_url ? (
-                    <img src={`${import.meta.env.BASE_URL}${candidate.photo_url.replace(/^\\//, '')}`} alt={`Paslon ${candidate.candidate_number}`} className="w-full h-full object-cover object-top" />
+                    <img src={`${import.meta.env.BASE_URL}${candidate.photo_url.startsWith('/') ? candidate.photo_url.slice(1) : candidate.photo_url}`} alt={`Paslon ${candidate.candidate_number}`} className="w-full h-full object-cover object-top" />
                   ) : (
                     <div className="absolute inset-0 flex flex-col items-center justify-center text-slate-600">
                       <User className="w-16 h-16 mb-2 opacity-50" />
