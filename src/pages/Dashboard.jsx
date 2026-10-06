@@ -161,7 +161,7 @@ export default function Dashboard() {
                   
                   {/* Candidate Photo (Overlay) */}
                   <div className="relative z-10 w-24 h-24 lg:w-32 lg:h-32 mx-auto mb-6 rounded-full border-4 border-slate-950 overflow-hidden shadow-2xl bg-slate-900">
-                     <img src={candidate.photo_url} alt="Paslon" className="w-full h-full object-cover object-top" />
+                     <img src={`${import.meta.env.BASE_URL}${candidate.photo_url.startsWith('/') ? candidate.photo_url.slice(1) : candidate.photo_url}`} alt="Paslon" className="w-full h-full object-cover object-top" />
                   </div>
                 </div>
 
